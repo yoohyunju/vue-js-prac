@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="app"></div>
+    <script>
+        var div = document.querySelector('#app');
+        var str = 'hello world';
+        div.innerHTML = str;
+
+        // 기존 웹 개발 방식 : 문자열 변경 시 다시 재할당 후 갱신해주어야 하는 문제점
+        str = 'hello world!!!';
+        div.innerHTML = str;
+    </script>
 </body>
 </html>
