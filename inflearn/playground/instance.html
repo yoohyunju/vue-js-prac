@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+      // Vue에서 제공하는 api, 속성들을 확인할 수 있음
+      var vm = new Vue({
+        el: "#app", // Vue 인스턴스를 특정 태그에 붙여주어야 Vue 기능을 사용할 수 있음
+        data: {
+          message: "hi",
+        },
+        methods: {},
+        created: function () {},
+      });
+    </script>
+  </body>
+</html>
